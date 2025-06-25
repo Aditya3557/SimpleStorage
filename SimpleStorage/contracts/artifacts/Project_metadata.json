@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EscrowContract/contracts/Project.sol": "Project"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EscrowContract/contracts/Project.sol": {
+			"keccak256": "0x64f6c8b4fa939b8c095e9cbb54e22a792ae7de4a805d9be508c279fb6e9b366e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff92a89c4da57b6635d04a4a88fc3f38ce12bec63f150dab3d6c502755dcea46",
+				"dweb:/ipfs/QmNiYSpNpEY27btAexb7STENikWHjDUWuxB67LEmyt9aQo"
+			]
+		}
+	},
+	"version": 1
+}
